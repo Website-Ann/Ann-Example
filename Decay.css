@@ -97,9 +97,9 @@ section.visible {
 
 .nav .logo h1 {
   color: var(--sb);
-  font-size: 5rem;
+  font-size: 3.2rem;
   font-family: "Syncopate", sans-serif;
-  transform: translateX(-1rem);
+  transform: translateY(20%);
 }
 
 #theme {
@@ -526,6 +526,14 @@ section.visible {
   transform: translateX(0%);
 }
 
+/* Medium Laptop */
+@media (max-width: 1475px) {
+  .font-content {
+    max-width: 35rem;
+  }
+}
+/* Medium Laptop */
+
 /* Laptop */
 
 @media (max-width: 1280px) {
@@ -538,8 +546,8 @@ section.visible {
   }
 
   .nav .logo h1 {
-    font-size: 2.5rem;
-    transform: translateX(-0.5rem);
+    font-size: 1.8rem;
+    transform: translateY(8%);
   }
 
   #theme {
@@ -685,9 +693,8 @@ section.visible {
   }
 }
 
-/* Tablet */
-
-@media (max-width: 768px) {
+/* Large Tablet */
+@media (max-width: 910px) {
   html {
     overflow-y: auto;
     overflow-x: auto;
@@ -707,8 +714,8 @@ section.visible {
   }
 
   .nav .logo h1 {
-    font-size: 4rem;
-    transform: translate(-0.6rem, 0.5rem);
+    font-size: 3.2rem;
+    transform: translateY(20%);
   }
 
   .font-name {
@@ -801,6 +808,355 @@ section.visible {
 
   .p-box i {
     font-size: 18rem;
+    transform: translateX(0.5rem);
+  }
+
+  .desc1 {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+  .ptext {
+    margin-top: 4rem;
+    max-width: 100%;
+  }
+
+  .desc1 p {
+    font-size: 1.3rem;
+  }
+
+  .desc1 img {
+    width: 25rem;
+    height: 25rem;
+  }
+
+  .back {
+    font-size: 3rem;
+  }
+
+  .images {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .img-box {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .img-box img {
+    height: auto;
+    width: 200px;
+    transform: translateX(100%);
+  }
+
+  .img-box:hover img {
+    transform: translateX(0%);
+  }
+}
+/* Large Tablet */
+
+/* Tablet */
+
+@media (max-width: 768px) {
+  html {
+    overflow-y: auto;
+    overflow-x: auto;
+  }
+
+  body {
+    padding-top: 0rem;
+  }
+
+  .hero {
+    display: flex;
+    justify-content: center;
+  }
+
+  .nav .logo h2 {
+    font-size: 3rem;
+  }
+
+  .nav .logo h1 {
+    font-size: 3.2rem;
+    transform: translateY(20%);
+  }
+
+  .font-name {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+  }
+
+  .desc-content .row .font-name h1 {
+    font-size: 2.5rem;
+  }
+
+  .row img {
+    width: 80%;
+    height: auto;
+  }
+
+  .font-content {
+    transform: translate(18rem, -13rem);
+  }
+
+  .hero-content {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .btn {
+    display: flex;
+    align-items: center;
+    padding: 0.1rem 6rem;
+    transform: translateY(-13rem);
+    font-size: 1.5rem;
+  }
+
+  .btn:hover {
+    transform: translateY(-13rem);
+  }
+
+  .box {
+    transform: translateY(-10rem);
+  }
+
+  .box h1 {
+    display: flex;
+    justify-content: center;
+  }
+
+  .dudika-content-1,
+  .dudika-content-2 {
+    display: flex;
+    gap: 2rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .desc-dudika {
+    height: 17rem;
+    width: 18rem;
+  }
+
+  .dudika-box h4 {
+    font-size: 3rem;
+  }
+
+  .dudika-box i {
+    font-size: 8rem;
+  }
+
+  .loc iframe {
+    width: 285px;
+    height: 275px;
+  }
+
+  .activity {
+    display: flex;
+    width: 290px;
+    height: 17rem;
+    justify-content: space-around;
+  }
+
+  .btn-jul,
+  .btn-aug,
+  .btn-sep {
+    font-size: 2rem;
+  }
+
+  .galery {
+    height: 17rem;
+    width: 18rem;
+  }
+
+  .p-box i {
+    font-size: 18rem;
+    transform: translateX(0.5rem);
+  }
+
+  .desc1 {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+  .ptext {
+    margin-top: 4rem;
+    max-width: 100%;
+  }
+
+  .desc1 p {
+    font-size: 1.3rem;
+  }
+
+  .desc1 img {
+    width: 25rem;
+    height: 25rem;
+  }
+
+  .back {
+    font-size: 3rem;
+  }
+
+  .images {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .img-box {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .img-box img {
+    height: auto;
+    width: 200px;
+    transform: translateX(100%);
+  }
+
+  .img-box:hover img {
+    transform: translateX(0%);
+  }
+}
+
+@media (max-width: 610px) {
+  body {
+    padding-top: 0rem;
+  }
+
+  .hero {
+    display: flex;
+    justify-content: center;
+  }
+
+  .nav .logo h2 {
+    font-size: 2.5rem;
+  }
+
+  .nav .logo h1 {
+    font-size: 2.7rem;
+    transform: translateY(20%);
+  }
+
+  .font-name {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+  }
+
+  .desc-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .desc-content .row {
+    display: flex;
+  }
+
+  .desc-content .row .font-name h1 {
+    font-size: 2rem;
+  }
+
+  .row img {
+    width: 60%;
+    height: auto;
+  }
+
+  .font-content {
+    transform: translate(13rem, -10rem);
+    max-width: 18rem;
+  }
+
+  .font-content h2 {
+    font-size: 1rem;
+  }
+
+  .font-content p {
+    font: 0.2rem;
+  }
+
+  .hero-content {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .link {
+    display: flex;
+    transform: translate(20%, 100%);
+  }
+
+  .btn {
+    display: flex;
+    align-items: center;
+    padding: 0.1rem 5rem;
+    transform: translateY(-13rem);
+    font-size: 1rem;
+  }
+
+  .btn:hover {
+    transform: translateY(-13rem);
+  }
+
+  .box {
+    transform: translateY(-10rem);
+  }
+
+  .box h1 {
+    display: flex;
+    justify-content: center;
+  }
+
+  .dudika-content-1,
+  .dudika-content-2 {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .desc-dudika {
+    height: 12rem;
+    width: 13rem;
+  }
+
+  .dudika-box h4 {
+    font-size: 2rem;
+  }
+
+  .dudika-box i {
+    font-size: 5rem;
+  }
+
+  .loc iframe {
+    width: 205px;
+    height: 190px;
+  }
+
+  .activity {
+    display: flex;
+    width: 210px;
+    height: 12rem;
+    justify-content: space-around;
+  }
+
+  .btn-jul,
+  .btn-aug,
+  .btn-sep {
+    font-size: 1rem;
+  }
+
+  .galery {
+    height: 12rem;
+    width: 13rem;
+  }
+
+  .p-box i {
+    font-size: 14rem;
     transform: translateX(0.5rem);
   }
 
