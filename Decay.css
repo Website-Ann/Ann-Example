@@ -972,7 +972,7 @@ section.visible {
   .font-content p {
     text-align: justify;
     max-width: 100%;
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
 
   .link {
@@ -1020,11 +1020,11 @@ section.visible {
   }
 
   .dudika-box h4 {
-    font-size: 1.2rem;
+    font-size: 2rem;
   }
 
   .dudika-box i {
-    font-size: 3rem;
+    font-size: 5rem;
   }
 
   .loc iframe {
@@ -1062,35 +1062,68 @@ section.visible {
 
   .desc {
     margin-top: 5rem;
+    width: 100vh;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    display: grid;
+    place-items: center;
+  }
+
+  .desc1 {
+    margin-top: 5rem;
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column-reverse;
   }
 
   .ptext {
-    max-width: 22rem;
+    max-width: 90%;
+    margin-top: 3rem;
   }
 
   .desc1 p {
-    font-size: 0.8rem;
+    font-size: 2rem;
   }
 
   .desc1 img {
     width: auto;
-    height: 20rem;
+    height: 35rem;
   }
 
   .back {
-    font-size: 3rem;
+    font-size: 6rem;
     margin-top: 1rem;
   }
 
+  .album {
+    height: 100vh;
+    width: 100vh;
+  }
+
   .images {
-    display: grid;
-    gap: 1.5rem;
+    display: flex;
+    gap: 3rem;
+    flex-direction: column;
+    width: 100vh;
+    height: 100vh;
     padding-bottom: 1rem;
   }
 
-  .img-box img {
+  .img-box {
+    width: 100%;
+    display: inline-block;
+    width: 100%;
     height: auto;
-    width: 120px;
+    margin: 0 auto;
+  }
+
+  .img-box img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
   }
 
   .img-box .textp h3 {
