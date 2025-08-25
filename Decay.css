@@ -946,6 +946,7 @@ section.visible {
 
   .hero-content {
     display: flex;
+    width: 100$;
     flex-direction: column;
     align-items: center;
   }
@@ -1005,6 +1006,10 @@ section.visible {
 
   .box {
     margin-top: 0rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
   }
 
   .box h1 {
@@ -1021,13 +1026,12 @@ section.visible {
   .dudika-content-2 {
     display: flex;
     gap: 3rem;
-    margin-left: 1rem;
     margin-bottom: 3rem;
   }
 
   .desc-dudika {
-    height: 14rem;
-    width: 15rem;
+    height: 15rem;
+    width: 16rem;
   }
 
   .dudika-box h4 {
@@ -1039,14 +1043,14 @@ section.visible {
   }
 
   .loc iframe {
-    width: 237px;
-    height: 227px;
+    width: 253px;
+    height: 243px;
   }
 
   .activity {
     display: flex;
-    width: 260px;
-    height: 14rem;
+    width: 276px;
+    height: 15rem;
     justify-content: space-around;
   }
 
@@ -1059,8 +1063,8 @@ section.visible {
   }
 
   .galery {
-    height: 14rem;
-    width: 15rem;
+    height: 15rem;
+    width: 16rem;
   }
 
   .p-box i {
