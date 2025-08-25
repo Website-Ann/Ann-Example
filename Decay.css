@@ -686,9 +686,9 @@ section.visible {
     margin-top: 2rem;
   }
 
-.album {
-  margin-top: 18rem;
-}
+  .album {
+    margin-top: 18rem;
+  }
 
   .images {
     display: grid;
@@ -981,14 +981,15 @@ section.visible {
   }
 
   .link {
+    justify-content: space-around;
     padding-top: 2rem;
   }
 
   .btn {
     display: inline-block;
     padding: 0.5rem 2.5rem;
-    border-radius: 3rem;
-    font-size: 3rem;
+    border-radius: 2rem;
+    font-size: 2.3rem;
     text-align: center;
     border: 2px solid transparent;
     font-weight: 500;
